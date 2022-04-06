@@ -12,7 +12,7 @@ class Socket {
 		SOCKET sock;
 		sockaddr_in hint;
 	public:
-		virtual void initialize() {};
+		virtual void initialize(string ipAddress, int port) {};
 		virtual void attach() {};
 		virtual void communicate() {};
 
@@ -22,5 +22,4 @@ class Socket {
 
 		virtual ~Socket() {};
 };
-
 

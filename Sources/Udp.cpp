@@ -2,6 +2,8 @@
 #include <WS2tcpip.h>
 #pragma comment (lib, "ws2_32.lib")
 #include "Udp.h"
+#include "ServerUdp.h"
+#include "ClientUdp.h"
 
 void Udp::initialize(string ipAddress, int port) {
 	WSADATA data;

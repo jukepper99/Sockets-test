@@ -12,7 +12,7 @@ class Tcp :
 {
     private:
     
-    public: 
+    public:
         void initialize(string ipAddress, int port);
 };
 

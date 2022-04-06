@@ -1,4 +1,6 @@
 #include "Tcp.h"
+#include "ServerTcp.h"
+#include "ClientTcp.h"
 #include <iostream>
 #include <WS2tcpip.h>
 #pragma comment (lib, "ws2_32.lib")
